@@ -1,0 +1,19 @@
+{
+  "name": "upanupstudios/eventbrite-php-client",
+  "description": "Eventbrite API client for PHP",
+  "keywords": ["eventbrite", "api"],
+  "licencse": "MIT",
+  "authors": [
+    {
+      "name": "Marco Maranao",
+      "email": "marcom@upanup.com"
+    }
+  ],
+  "version": "1.0",
+  "require": {
+      "guzzlehttp/guzzle": "^6.0 || ^7.0"
+  },
+  "autoload": {
+      "psr-4": { "Upanupstudios\\Eventbrite\\Php\\Client\\": "src/" }
+  }
+}
